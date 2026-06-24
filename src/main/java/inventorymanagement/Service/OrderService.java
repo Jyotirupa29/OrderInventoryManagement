@@ -51,7 +51,6 @@ public class OrderService {
 
 	        System.out.println("create order itmes and assign items");
 
-	        System.out.println("save orders intrun saves order items and updates pro");
 
 	        return ordersRepository.save(orders);
 }
